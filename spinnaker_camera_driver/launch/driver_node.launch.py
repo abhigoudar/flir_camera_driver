@@ -133,7 +133,7 @@ def generate_launch_description():
                   description='camera name (ros node name)'),
         LaunchArg('camera_type', default_value='blackfly_s',
                   description='type of camera (blackfly_s, chameleon...)'),
-        LaunchArg('serial', default_value="'20435008'",
+        LaunchArg('serial', default_value="'15224416'",
                   description='FLIR serial number of camera (in quotes!!)'),
         LaunchArg('parameter_file', default_value='',
                   description='path to ros parameter definition file (override camera type)'),
